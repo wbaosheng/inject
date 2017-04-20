@@ -58,7 +58,7 @@ static bool jni_exception(){
 	return false;
 }
 
-// __attribute__ ((__constructor__))
+__attribute__ ((__constructor__))
 void callback(char* param) {
     LOGI("param=%s", param);
     char* path = param;

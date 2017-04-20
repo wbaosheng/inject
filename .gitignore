@@ -41,3 +41,6 @@ captures/
 
 # ndk obj
 obj/
+
+.tags
+.tags_sorted_by_file
